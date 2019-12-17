@@ -1,0 +1,23 @@
+footer {
+    background-color: #918F89;
+    font-family:noto-sans, sans-serif;
+    .logo {
+        float: left;
+        margin-left: 10%;
+        margin-top: 116px;
+    }
+    .right-menu {
+    // float: right;
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 0;
+        padding-top: 136px;
+        padding-bottom: 120px;
+        a{
+            padding-right: 10%;
+            color: #ffffff;
+            font-size: 16px;
+        }
+    }
+    
+}

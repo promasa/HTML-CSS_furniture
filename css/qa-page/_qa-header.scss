@@ -1,0 +1,35 @@
+header {
+    font-family:noto-sans, sans-serif;
+    width: 100vw;
+    // position: fixed;
+    .logo {
+        float: left;
+        margin-left: 8%;
+        }
+    .right-menu {
+        // float: right;
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 0;
+        padding-top: 15px;
+        margin-top: 30px;
+        a{
+            margin-right: 10%;
+            color: #272727;
+            opacity: 0.5;
+            font-size: 16px;
+            padding-bottom: 10px;
+            font-family:noto-sans, sans-serif;
+        }
+        .qa-page {
+            opacity: 1;
+            border-bottom: solid;
+            border-width: 2px;
+            &:hover {
+                cursor: default;
+            }
+        }
+            // text-decoration: underline;
+        
+    }
+}
